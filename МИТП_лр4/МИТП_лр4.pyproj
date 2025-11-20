@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>13f2e751-0ba8-4011-af6c-24f678268e99</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Timer.py</StartupFile>
+    <StartupFile>FileFilter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="EvenNumbers.py" />
+    <Compile Include="FileFilter.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PrimeGenerator.py">
       <SubType>Code</SubType>
     </Compile>
